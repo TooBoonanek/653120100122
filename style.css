@@ -1,0 +1,99 @@
+html, body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: url("https://images.pexels.com/photos/414144/pexels-photo-414144.jpeg?auto=compress&cs=tinysrgb&w=600ttps://images.pexels.com/photos/417074/pexels-photo-417074.jpeg?auto=compress&cs=tinysrgb&w=600");
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    overflow: auto;
+    scrollbar-width: 10px;
+}
+
+.bg {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.profile {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border: 2px solid white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.container h1 {
+    margin: 0 0 10px 0;
+    font-size: 2.5em;
+}
+
+.container p {
+    margin: 0 0 20px 0;
+    font-size: 1.2em;
+    font-weight: 800;
+}
+
+.container button {
+    background-color: #232323;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 700;
+    transition: background-color 0.3s ease;
+}
+
+.container button:hover {
+    background-color: #1f0b86;
+}
+
+.bg a {
+    background: rgba(0, 0, 0, 0.5);
+    padding: 20px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    margin-bottom: 20px;
+}
+
+.btn-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 15px;
+    max-width: 80%;
+    margin: 20px auto 0;
+}
+
+.btn {
+    background-color: #333;
+    color: white;
+    border: 1px solid white;
+    padding: 10px 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: 900;
+    text-decoration: none;
+    transition: background-color 0.3s ease;
+    flex: 1 0 10%;
+    max-width: 10%;
+    text-align: center;
+}
+
+.btn:hover {
+    background-color: #1f0b86;
+}
