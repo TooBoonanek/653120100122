@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab15-02: 3D Pyramid with HUD</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lab15-02: 3D Pyramid with HUD</h1>
+      <div id="hud">
+        <div id="fps">FPS: 0</div>
+        <div id="rotation">Rotation: X: 0, Y: 0, Z: 0</div>
+        <div id="light-position">Light Position: X: 0, Y: 3, Z: 5</div>
+      </div>
+      <canvas id="myCanvas"></canvas>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/dat-gui/0.7.7/dat.gui.min.js"></script>
+      <script src="./lab15-02.js"></script>
+    </div>
+  </body>
+</html>

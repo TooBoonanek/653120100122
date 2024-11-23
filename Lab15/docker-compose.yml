@@ -1,0 +1,8 @@
+version: '3'
+services:
+  web:
+    image: httpd:alpine
+    ports:
+      - "8094:80"
+    volumes:
+      - D:\ComputerGraphic\653120100122\Lab15:/usr/local/apache2/htdocs/

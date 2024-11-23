@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Lab16-02: LookAt Triangle with Keys and Alpha Blending</title>
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <h1>Lab16-02: LookAt Triangle with Keys and Alpha Blending</h1>
+      <canvas id="myCanvas"></canvas>
+      <div id="controls">
+        <label for="alphaValue">Alpha Value:</label>
+        <input
+          type="range"
+          id="alphaValue"
+          min="0"
+          max="1"
+          step="0.01"
+          value="1"
+        />
+        <span id="alphaDisplay">1.00</span>
+      </div>
+      <div id="instructions">
+        <p>Use arrow keys to move the camera</p>
+        <p>Use WASD keys to rotate the camera</p>
+      </div>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r128/three.min.js"></script>
+      <script src="./lab16-02.js"></script>
+    </div>
+  </body>
+</html>
